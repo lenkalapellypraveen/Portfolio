@@ -55,7 +55,7 @@ const Achievements = () => {
             isLight ? "text-black-100" : "text-white-100"
           } mb-12 whitespace-nowrap text-xl`} // Adjusted text size and margin
         >
-          Certifications and Publications
+          Certifications
         </h2>
         <div className="flex flex-wrap justify-center -m-2">
           {achievements.map((achievement, index) => (

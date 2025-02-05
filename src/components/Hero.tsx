@@ -63,7 +63,7 @@ const Hero = () => {
               >
                 My Resume
               </Link>
-              <a href="www.linkedin.com/in/praveen-lenkalapelly" target="__blank">
+              <a href="https://www.linkedin.com/in/praveen-lenkalapelly/" target="__blank">
                 <img
                   src={linkedin}
                   alt="linkedin"
@@ -88,11 +88,9 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <img
-            src={comp}
-            alt="Working Man"
-            className="pointer-events-none z-10"
-          />
+          <div class="profile-circle">
+            <img src="path_to_your_image.jpg" alt="Praveen">
+          </div>
         </div>
       </section>
     </div>

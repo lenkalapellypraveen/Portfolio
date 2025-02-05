@@ -17,3 +17,21 @@
 .last-name {
     font-family: 'Lenkalapelly', sans-serif; /* Customize the font family */
 }
+
+.profile-circle {
+    width: 200px;  /* Adjust the size as needed */
+    height: 200px; /* Make sure width and height are the same for a perfect circle */
+    border-radius: 50%; /* This makes the div circular */
+    overflow: hidden; /* Ensures the image doesn’t exceed the boundary of the div */
+    border: 5px solid #FFFFFF; /* Adjust the color and size of the border */
+    box-shadow: 0 0 8px rgba(0,0,0,0.6); /* Optional: Adds shadow for a lifted effect */
+    display: flex; /* Centering the image horizontally */
+    align-items: center; /* Centering the image vertically */
+    justify-content: center;
+  }
+  
+  .profile-circle img {
+    width: auto;  /* Ensures the image maintains aspect ratio */
+    height: 100%; /* This will cover the div vertically */
+  }
+  
