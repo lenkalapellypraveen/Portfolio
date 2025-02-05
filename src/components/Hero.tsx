@@ -30,7 +30,7 @@ const Hero = () => {
                 isLight ? "text-black-200" : "text-white-100"
               } mt-2`} 
             >Hi I'm</p>
-              <h1>
+              <h1 class = "name-tag">
                 <span className="name-gradient first-name">Praveen</span> 
                 <span className="name-gradient last-name"> Lenkalapelly</span>
               </h1>

@@ -10,14 +10,16 @@
     font-weight: bold; /* Make the name bold */
 }
 
+.name-tag{
+    margin-top: -16px;
+    margin-bottom: -8px;
+}
 .first-name {
     font-family: 'Praveen', sans-serif; /* Customize the font family */
-    margin-top: -8px;
 }
 
 .last-name {
     font-family: 'Lenkalapelly', sans-serif; /* Customize the font family */
-    margin-top: -8px;
     margin-left: 32px;
 }
 
