@@ -1,7 +1,7 @@
 import { ML_Engineer, Data_Scientist, docker, Data_Engineer, Cloud_Engineer, kafka, PowerBi } from '../assets';
 import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp,ieee, MS_DS_Associate, Neo4j, Databricks, MS_DP} from '../assets/index';
+import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp, MS_DS_Associate, Neo4j, Databricks, MS_DP} from '../assets/index';
 
 export const resumeLink = "https://drive.google.com/drive/folders/1FOr_4waHpiQL3e0qgHumIobHQEYiLxJ0";
 

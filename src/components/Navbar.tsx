@@ -20,13 +20,6 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        isLight ? "bg-white" : "bg-black"
-      } bg-opacity-60 backdrop-blur`}
-    >
       <div className="w-full flex justify-between items-center mx-auto">
         <Link
           to="/"
