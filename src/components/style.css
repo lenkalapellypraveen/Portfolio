@@ -6,7 +6,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block; /* Keeps the gradient only on text */
-    font-size: 5rem; /* Adjust the font size as necessary */
+    font-size: 3.5rem; /* Adjust the font size as necessary */
     font-weight: bold; /* Make the name bold */
 }
 
