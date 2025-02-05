@@ -16,6 +16,7 @@
 
 .last-name {
     font-family: 'Lenkalapelly', sans-serif; /* Customize the font family */
+    padding-left: 16px,
 }
 
 .profile-circle {
