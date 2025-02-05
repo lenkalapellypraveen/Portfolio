@@ -47,21 +47,21 @@ export const websites = [
     {
         title: 'Data Scientist', 
         description: 'As a Data Scientist at Modak Analytics, I led the development of scalable data pipelines using Python and R, incorporating AI and statistical modeling to drive predictive analytics. Enhanced strategic decision-making through sophisticated data transformation and integration into existing data warehouses. Constructed and deployed machine learning models via Azure Machine Learning and MLflow resulting in a 15% increase in customer acceptance and a 25% improvement in model accuracy, backed by effective MLOps and feature engineering practices. Additionally, I spearheaded efforts in real-time data visualization with Azure Databricks and Power BI, reducing report generation time by 35% and increasing data wrangling efficiency by 30%.', 
-        stack: [Predictive Analytics, Machine Learning Models, and Data Visualization],
+        stack: [],
         link: '',
         source: ""
     },
     {
         title: 'Data Engineer', 
         description: 'As a Data Engineer at Modak Analytics, I focused on enhancing ETL processes and data storage solutions, leveraging tools like Amazon S3 and Hive to boost warehousing accuracy and efficiency. My projects included streamlining data migration using Python, which improved transition reliability by 30% and efficiency by 25%. I implemented AWS Lambda in conjunction with CI/CD tools like Code Pipeline and Code Commit to automate data ingestion, saving over 50 hours of manual work each month and enhancing overall productivity. I also automated data pipeline scheduling with Python DAG scheduler, integrating rigorous unit testing and benchmarking to optimize data flow.', 
-        stack: [ETL Processes, AWS Lambda Automation, and Python Development],
+        stack: [],
         link: '',
         source: ""
     },
     {
         title: 'Data Engineer', 
         description: 'As a Data Engineer at UST Global, I built and managed Azure Data Factory pipelines that interfaced with external APIs, ensuring data aggregation and storage while maintaining compliance with regulatory standards. I developed custom scripts to optimize CRUD operations, reducing execution times by 30% and maintaining strict adherence to project deadlines. Additionally, I improved CI/CD workflows by streamlining GitHub repositories, enhancing pipeline reliability by 35% and facilitating cost-effective, seamless code deployments.', 
-        stack: [Azure Data Factory, API Integration, and CI/CD Optimization],
+        stack: [],
         link: '',
         source: ""
     },
