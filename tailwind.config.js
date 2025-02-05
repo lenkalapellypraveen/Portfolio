@@ -19,7 +19,7 @@ export const theme = {
     },
     backgroundImage: {
       "hero-pattern-dark": "url('/src/assets/herobgdark.png')",
-      "hero-pattern-light": "url('/src/assets/herobglight.jpg')",
+      "hero-pattern-light": "url('/src/assets/herobglight.png')",
     },
   },
 };
