@@ -12,10 +12,12 @@
 
 .first-name {
     font-family: 'Praveen', sans-serif; /* Customize the font family */
+    margin-top: 16px;
 }
 
 .last-name {
     font-family: 'Lenkalapelly', sans-serif; /* Customize the font family */
+    margin-top: 16px;
     margin-left: 32px;
 }
 
