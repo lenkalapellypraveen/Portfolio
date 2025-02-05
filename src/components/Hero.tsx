@@ -25,17 +25,33 @@ const Hero = () => {
       >
         <div className="flex flex-col md:flex-row justify-between items-center mt-5 gap-3">
           <div className="flex flex-col gap-3 md:gap-5">
-            <h1
-              className={`${styles.heroHeadText} ${
-                isLight ? "text-black-100" : "text-white-100"
-              }`}
-            >
-              Hi, I am <span className="text-[#2548e3]">Praveen.</span>
-            </h1>
             <h1>
               Hi! I'm <span className="name-gradient first-name">Praveen</span> 
               <span className="name-gradient last-name">Lenkalapelly</span>
             </h1>
+            <p
+              className={`${styles.heroSubText} ${
+                isLight ? "text-black-200" : "text-white-100"
+              } mt-2`}
+            >
+              I am a
+              <span className="text-secondary-light">
+                <Typewriter
+                  words={[
+                    " Data Scientist.",
+                    " Data Engineer.",
+                    " Machine Learning Engineer.",
+                    " Cloud Engineer.",
+                  ]}
+                  loop={0}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
+            </p>
             <div className="flex gap-5 md:gap-7 justify-start items-center">
               <Link
                 to="/resume"
@@ -71,29 +87,6 @@ const Hero = () => {
                 />
               </a>
             </div>
-            <p
-              className={`${styles.heroSubText} ${
-                isLight ? "text-black-200" : "text-white-100"
-              } mt-2`}
-            >
-              I am a
-              <span className="text-secondary-light">
-                <Typewriter
-                  words={[
-                    " Data Scientist.",
-                    " Data Engineer.",
-                    " Machine Learning Engineer.",
-                    " Cloud Engineer.",
-                  ]}
-                  loop={0}
-                  cursor
-                  cursorStyle="_"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
-              </span>
-            </p>
           </div>
           <img
             src={comp}
