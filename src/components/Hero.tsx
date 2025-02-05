@@ -31,6 +31,8 @@ const Hero = () => {
             >
               Hi, I am <span className="text-[#2548e3]">Praveen.</span>
             </h1>
+            <h1 class="cs_hero_title cs_font_92 cs_black wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"><span class="cs_gradient_text">Praveen </span><span
+                  class="cs_gradient_border_text">Lenkalapelly</span></h1>
             <div className="flex gap-5 md:gap-7 justify-start items-center">
               <Link
                 to="/resume"
