@@ -29,7 +29,7 @@ const Hero = () => {
                 isLight ? "text-black-100" : "text-white-100"
               }`}
             >
-              Hi, I am <span className="text-[#2548e3]">Sahith.</span>
+              Hi, I am <span className="text-[#2548e3]">Praveen.</span>
             </h1>
             <div className="flex gap-5 md:gap-7 justify-start items-center">
               <Link
@@ -42,14 +42,14 @@ const Hero = () => {
               >
                 My Resume
               </Link>
-              <a href="https://www.linkedin.com/in/sahith06/" target="__blank">
+              <a href="www.linkedin.com/in/praveen-lenkalapelly" target="__blank">
                 <img
                   src={linkedin}
                   alt="linkedin"
                   className="w-7 md:w-10 hover:scale-105"
                 />
               </a>
-              <a href="https://github.com/sahithdamera" target="__blank">
+              <a href="https://github.com/lenkalapellypraveen" target="__blank">
                 <img
                   src={github}
                   alt="github"
@@ -58,7 +58,7 @@ const Hero = () => {
                   } w-7 md:w-10 hover:scale-105`}
                 />
               </a>
-              <a href="mailto:damerasahith6@gmail.com" target="__blank">
+              <a href="mailto:praveen.lenkalapelly9@gmail.com" target="__blank">
                 <img
                   src={gmail}
                   alt="gmail"
@@ -75,9 +75,9 @@ const Hero = () => {
               <span className="text-secondary-light">
                 <Typewriter
                   words={[
-                    " Data Analyst.",
+                    " Data Scientist.",
                     " Data Engineer.",
-                    " Software Engineer.",
+                    " Machine Learning Engineer.",
                     " Cloud Engineer.",
                   ]}
                   loop={0}

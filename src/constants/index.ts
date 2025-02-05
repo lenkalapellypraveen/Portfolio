@@ -1,17 +1,17 @@
 import { backend, cp, docker, frontend, kafka, PowerBi } from '../assets';
 import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { github, Azure_Migration, Microsoft_Fabric, CICD, Polyp,ieee,microsoft, iot, Oracle} from '../assets/index';
+import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp,ieee,microsoft, iot, Oracle} from '../assets/index';
 
-export const resumeLink = "https://drive.google.com/file/d/1w44WWfsoPJLbrmhy0VsyYaKUf7BxxJIS/preview";
+export const resumeLink = "https://drive.google.com/drive/folders/1FOr_4waHpiQL3e0qgHumIobHQEYiLxJ0";
 
 
-export const aboutMe = "Hello, I'm Sahith, a dedicated Data Analyst and Data Engineer, with Master's in Data Science, thriving in the dynamic environment. My journey has been incredibly rewarding, allowing me to take ownership of projects and experience rapid professional growth through continuous learning. Driven by a passion for Extracting, Transforming, Loading and problem-solving the data. With over 3 years of experience on cloud technologies mainly Azure, AWS and GCP, I'm deeply committed to refining my skills and optimizing solutions. My curiosity for exploring new technologies has led me to diverse projects, including Migration of Data from on premsis to Azure cloud, developing Python modules, and creating visualizations using PowerBi and Tableue. Each project presents a unique opportunity for me to expand my technical repertoies and push the boundaries of innovation. Let's connect and explore opportunities to collaborate on exciting ventures together!"
+export const aboutMe = "I leverage advanced analytics and programming skills to transform large datasets into actionable insights, utilizing statistical methods and machine learning algorithms to drive strategic decisions and drive innovation. My expertise bridges the gap between raw data and significant business outcomes."
 
 export const skills = [
-    {title: "Data Analyst", icon: cp}, 
+    {title: "Data Scientist", icon: cp}, 
     {title: "Data Engineer", icon: frontend}, 
-    {title: "Devops Engineer", icon: backend}, 
+    {title: "Machine Learning Engineer", icon: backend}, 
     // {title: "AWS Solutions Architect", icon: aws}
 ];
 
@@ -45,23 +45,23 @@ export const languages = [
 
 export const websites = [
     {
-        title: 'Data Engineer / Associate System Enginner', 
-        description: 'Led complex data engineering projects at Tata Consultancy Services, optimizing data flows and achieving a 99.8% uptime for an AWS-based pipeline. I automated data migration processes, reducing manual effort by 60% and downtime by 40%, while leveraging technologies like AWS, Jenkins, Kafka, and SQL for streamlined operations.', 
-        stack: [python, java, scala, azure, gcp, PowerBi, git ],
+        title: 'Data Scientist', 
+        description: 'As a Data Scientist at Modak Analytics, I led the development of scalable data pipelines using Python and R, incorporating AI and statistical modeling to drive predictive analytics. Enhanced strategic decision-making through sophisticated data transformation and integration into existing data warehouses. Constructed and deployed machine learning models via Azure Machine Learning and MLflow resulting in a 15% increase in customer acceptance and a 25% improvement in model accuracy, backed by effective MLOps and feature engineering practices. Additionally, I spearheaded efforts in real-time data visualization with Azure Databricks and Power BI, reducing report generation time by 35% and increasing data wrangling efficiency by 30%.', 
+        stack: [Predictive Analytics, Machine Learning Models, and Data Visualization],
         link: '',
         source: ""
     },
     {
-        title: 'Software Engineer', 
-        description: 'As a Software Engineer, I fostered a DevOps culture, improving project delivery times by 15%, and enhanced data accuracy and processing efficiency by maintaining Tableau data sources. Additionally, I automated tasks with Python, implemented Docker and Kubernetes for scalable deployments, and optimized data interactions with Sqoop and Hive.', 
-        stack: [ java, docker, kubernetes, jenkins, tableau ],
+        title: 'Data Engineer', 
+        description: 'As a Data Engineer at Modak Analytics, I focused on enhancing ETL processes and data storage solutions, leveraging tools like Amazon S3 and Hive to boost warehousing accuracy and efficiency. My projects included streamlining data migration using Python, which improved transition reliability by 30% and efficiency by 25%. I implemented AWS Lambda in conjunction with CI/CD tools like Code Pipeline and Code Commit to automate data ingestion, saving over 50 hours of manual work each month and enhancing overall productivity. I also automated data pipeline scheduling with Python DAG scheduler, integrating rigorous unit testing and benchmarking to optimize data flow.', 
+        stack: [ETL Processes, AWS Lambda Automation, and Python Development],
         link: '',
         source: ""
     },
     {
-        title: 'Portfolio', 
-        description: 'My humble portfolio website', 
-        stack: [reactjs, typescript],
+        title: 'Data Engineer', 
+        description: 'As a Data Engineer at UST Global, I built and managed Azure Data Factory pipelines that interfaced with external APIs, ensuring data aggregation and storage while maintaining compliance with regulatory standards. I developed custom scripts to optimize CRUD operations, reducing execution times by 30% and maintaining strict adherence to project deadlines. Additionally, I improved CI/CD workflows by streamlining GitHub repositories, enhancing pipeline reliability by 35% and facilitating cost-effective, seamless code deployments.', 
+        stack: [Azure Data Factory, API Integration, and CI/CD Optimization],
         link: '',
         source: ""
     },
@@ -69,40 +69,26 @@ export const websites = [
 
 export const projects = [
     {
-        title: "Azure Migration",
-        description: "The project implements an Azure Data Engineering pipeline using Azure Data Factory, Azure Synapse Analytics, Azure Databricks, and Power BI to migrate an on-premise SQL Server database to the cloud. It includes data transformation, loading, and visualization, emphasizing automation and security.",
+        title: "Real-Time Weather prediction with API Integration",
+        description: "Led the development of a Linear Regression model, enhancing weather prediction precision by 18% using scikit-learn. Engineered API integrations to boost forecast accuracy by 27%, significantly improving decision-making for weather-dependent scenarios.",
         stack: [azure, Ssms, python, PowerBi],
         source: "",
-        media: Azure_Migration
+        media: Weather_Prediction
     },
     {
-        title: "Building CI/CD Pipeline",
-        description: "The project implements a CI/CD pipeline using Jenkins, Docker, Maven, SonarQube, and Kubernetes, with a focus on Argo CD for lifecycle management. It includes setting up and configuring each tool, building and analyzing a Java application, and automating deployment.",
+        title: "Genomic Ancestry Prediction through Advanced Machine Learning Integration",
+        description: "Developed a custom Ridge Regression model from scratch for Ancestry Classification, optimizing regularization and employing k-fold cross-validation to enhance model accuracy and ensure robust performance on unseen data.",
         stack: [jenkins, docker, kubernetes, github, git],
         source: "",
-        media: CICD
-    },
-    {
-        title: "Bing News Data Analytics using Microsoft Fabric",
-        description: "This project creates a news data analytics platform with Microsoft Fabric, covering data ingestion from Bing, transformation, sentiment analysis, and reporting. It involves tools like Data Factory, Synapse Data Engineering, Synapse Data Science, Power BI, and Data Activator to perform the entire process, from data collection to dashboard creation and alert configuration.",
-        stack: [azure, PowerBi, python ],
-        source: "",
-        media: Microsoft_Fabric
-    },
-    {
-        title: "Automatic Segmentation of Polyps using Colonoscopy",
-        description: "This project presents an effective U-Net architecture based on pretrained deep CNNs for detecting polyps in colonoscopy and endoscopy images. The model, integrated with data augmentation and patch extraction, achieves high precision and sensitivity, with a great mean IoU score and dice loss.",
-        stack: [python],
-        source: "https://github.com/sahithdamera",
-        media: Polyp
+        media: Genomic_Ancestry_Prediction
     },
 
 ]
 
 export const achievements = [
-    { title: "Microsoft Data Fundamentals", icon: microsoft, link: "https://learn.microsoft.com/en-us/users/sahithdamera-2374/credentials/3fc8d119ec60f796?ref=https%3A%2F%2Fwww.linkedin.com%2F" }, 
-    { title: "Automatic Segmentation", icon: ieee, link: "https://ieeexplore.ieee.org/document/9544573" }, 
-    { title: "Introduction to IOT", icon: iot, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL19CS65S51470359191053092" }, 
-    { title: "Data Structures in Python", icon: PowerBi, link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL20CS26S1PC626488" },
-    { title: "Oracle AI Professional", icon: Oracle, link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=10477D66C70298F9FECE4DD27ECF66B6FD8A570BAD6BBE9371BABFAFA7677025#" }
+    { title: "Microsoft Certified: Azure Data Scientist Associate", icon: microsoft, link: "https://drive.google.com/file/d/1afT5f_o1wR9SNVJKyrGDoxKqC26mg0UV/view?usp=sharing" }, 
+    { title: "Fundamentals of the Databricks Lakehouse Platform Accreditation", icon: ieee, link: "https://drive.google.com/file/d/1AXBM1AV8wi3LVV6ivrXXOwtvVBvTRG3v/view" }, 
+    { title: "Neo4j Certified Professional", icon: iot, link: "https://drive.google.com/file/d/1sNrxTUDEcWGc50gRWufBqfkiMaZ2ekwR/view" }, 
+    { title: "Microsoft Certified: Azure Data Fundamentals", icon: PowerBi, link: "https://drive.google.com/file/d/1Y1MH6WYgCGW2iRk9vtAFrygmYReHIyr5/view" },
+    { title: "Microsoft Certified: Azure Fundamentals", icon: Oracle, link: "https://drive.google.com/file/d/1Txs-K6otbvmycsbAxvv6KjMInN_Az5n6/view" }
 ];

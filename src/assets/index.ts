@@ -52,8 +52,8 @@ import cp from './skills/cp.png';
 import frontend from './skills/frontend.png';
 
 import leethub from './projects/leethub.png';
-import Azure_Migration from './projects/Azure_Migration.png'
-import CICD from './projects/CICD.png'
+import Weather_Prediction from './projects/weather_prediction.png'
+import Genomic_Ancestry_Prediction from './projects/Genomic_Ancestry_Prediction.png'
 import Microsoft_Fabric from './projects/Microsoft_Fabric.png'
 import Polyp from './projects/Polyp.png'
 import linkedList from './projects/LinkedList.jpg';
@@ -110,8 +110,8 @@ export {
   plsql,
   excel,
   jenkins,
-  Azure_Migration,
-  CICD,
+  Weather_Prediction,
+  Genomic_Ancestry_Prediction,
   Microsoft_Fabric,
   Polyp,
   ieee,

@@ -42,7 +42,7 @@ const Navbar = () => {
               isLight ? "text-black-100" : "text-white-100"
             } text-[18px] font-bold cursor-pointer`}
           >
-            Sahith Damera
+            Praveen Lenkalapelly
           </p>
         </Link>
         <button

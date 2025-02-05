@@ -12,9 +12,9 @@ const Websites = () => {
   const education = [
     {
       degree: "Masters",
-      institution: "University of New Haven",
-      description: "Master of Science in Data Science, 2022 - 2023",
-      link: "https://www.newhaven.edu/index.php",
+      institution: "Florida Atlantic University",
+      description: "Master of Science in Data Science and Analytics, 2023 - 2024",
+      link: "https://myfau.fau.edu/u/myfau/index",
     },
     {
       degree: "Bachelors",
