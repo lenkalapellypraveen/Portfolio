@@ -57,7 +57,7 @@ const Hero = () => {
               </span>
             </p>
             <div class="text-secondary-text-light text-[17px] max-w-4xl leading-[30px] md:ml-3 text-justify">
-	              <p>&nbsp;Data Professional leveraging statistical analysis, machine learning, and advanced programming skills to collect, clean, and analyze 
+	              <p>Data Professional leveraging statistical analysis, machine learning, and advanced programming skills to collect, clean, and analyze 
                   large datasets, extracting meaningful insights, and developing predictive models to guide strategic business decisions.
 	              </p>
             </div>
