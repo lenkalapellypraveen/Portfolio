@@ -36,7 +36,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p
             className={`${
               isLight ? "text-black-100" : "text-white-100"

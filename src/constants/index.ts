@@ -1,7 +1,7 @@
-import { backend, cp, docker, frontend, kafka, PowerBi } from '../assets';
+import { ML_Engineer, Data_Scientist, docker, Data_Engineer, Cloud_Engineer, kafka, PowerBi } from '../assets';
 import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
-import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp,ieee,microsoft, iot, Oracle} from '../assets/index';
+import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp,ieee, MS_DS_Associate, Neo4j, Databricks, MS_DP} from '../assets/index';
 
 export const resumeLink = "https://drive.google.com/drive/folders/1FOr_4waHpiQL3e0qgHumIobHQEYiLxJ0";
 
@@ -9,9 +9,10 @@ export const resumeLink = "https://drive.google.com/drive/folders/1FOr_4waHpiQL3
 export const aboutMe = "I leverage advanced analytics and programming skills to transform large datasets into actionable insights, utilizing statistical methods and machine learning algorithms to drive strategic decisions and drive innovation. My expertise bridges the gap between raw data and significant business outcomes."
 
 export const skills = [
-    {title: "Data Scientist", icon: cp}, 
-    {title: "Data Engineer", icon: frontend}, 
-    {title: "Machine Learning Engineer", icon: backend}, 
+    {title: "Data Scientist", icon: Data_Scientist}, 
+    {title: "Data Engineer", icon: Data_Engineer}, 
+    {title: "Machine Learning Engineer", icon: ML_Engineer}, 
+    {title: "Cloud Engineer", icon: Cloud_Engineer}
     // {title: "AWS Solutions Architect", icon: aws}
 ];
 
@@ -71,14 +72,14 @@ export const projects = [
     {
         title: "Real-Time Weather prediction with API Integration",
         description: "Led the development of a Linear Regression model, enhancing weather prediction precision by 18% using scikit-learn. Engineered API integrations to boost forecast accuracy by 27%, significantly improving decision-making for weather-dependent scenarios.",
-        stack: [azure, Ssms, python, PowerBi],
+        stack: [],
         source: "",
         media: Weather_Prediction
     },
     {
         title: "Genomic Ancestry Prediction through Advanced Machine Learning Integration",
         description: "Developed a custom Ridge Regression model from scratch for Ancestry Classification, optimizing regularization and employing k-fold cross-validation to enhance model accuracy and ensure robust performance on unseen data.",
-        stack: [jenkins, docker, kubernetes, github, git],
+        stack: [],
         source: "",
         media: Genomic_Ancestry_Prediction
     },
@@ -86,9 +87,9 @@ export const projects = [
 ]
 
 export const achievements = [
-    { title: "Microsoft Certified: Azure Data Scientist Associate", icon: microsoft, link: "https://drive.google.com/file/d/1afT5f_o1wR9SNVJKyrGDoxKqC26mg0UV/view?usp=sharing" }, 
-    { title: "Fundamentals of the Databricks Lakehouse Platform Accreditation", icon: ieee, link: "https://drive.google.com/file/d/1AXBM1AV8wi3LVV6ivrXXOwtvVBvTRG3v/view" }, 
-    { title: "Neo4j Certified Professional", icon: iot, link: "https://drive.google.com/file/d/1sNrxTUDEcWGc50gRWufBqfkiMaZ2ekwR/view" }, 
-    { title: "Microsoft Certified: Azure Data Fundamentals", icon: PowerBi, link: "https://drive.google.com/file/d/1Y1MH6WYgCGW2iRk9vtAFrygmYReHIyr5/view" },
-    { title: "Microsoft Certified: Azure Fundamentals", icon: Oracle, link: "https://drive.google.com/file/d/1Txs-K6otbvmycsbAxvv6KjMInN_Az5n6/view" }
+    { title: "Microsoft Certified: Azure Data Scientist Associate", icon: MS_DS_Associate, link: "https://drive.google.com/file/d/1afT5f_o1wR9SNVJKyrGDoxKqC26mg0UV/view?usp=sharing" }, 
+    { title: "Fundamentals of the Databricks Lakehouse Platform Accreditation", icon: Databricks, link: "https://drive.google.com/file/d/1AXBM1AV8wi3LVV6ivrXXOwtvVBvTRG3v/view" }, 
+    { title: "Neo4j Certified Professional", icon: Neo4j, link: "https://drive.google.com/file/d/1sNrxTUDEcWGc50gRWufBqfkiMaZ2ekwR/view" }, 
+    { title: "Microsoft Certified: Azure Data Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Y1MH6WYgCGW2iRk9vtAFrygmYReHIyr5/view" },
+    { title: "Microsoft Certified: Azure Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Txs-K6otbvmycsbAxvv6KjMInN_Az5n6/view" }
 ];
