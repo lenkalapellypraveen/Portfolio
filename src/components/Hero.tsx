@@ -89,7 +89,11 @@ const Hero = () => {
             </div>
           </div>
           <div class="profile-circle">
-            <img src="path_to_your_image.jpg" alt="Praveen">
+            <img
+              src={comp}
+              alt="Working Man"
+              className="pointer-events-none z-10"
+            />
           </div>
         </div>
       </section>
