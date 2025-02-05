@@ -34,7 +34,6 @@ const Hero = () => {
                 <span className="name-gradient first-name">Praveen</span> 
                 <span className="name-gradient last-name"> Lenkalapelly</span>
               </h1>
-            
             <p
               className={`${styles.heroSubText} ${
                 isLight ? "text-black-200" : "text-white-100"
@@ -57,6 +56,11 @@ const Hero = () => {
                 />
               </span>
             </p>
+            <div class="text-secondary-text-light text-[17px] max-w-5xl leading-[30px] md:ml-3 text-justify">
+	              <p>&nbsp;&nbsp;&nbsp;Data Professional leveraging statistical analysis, machine learning, and advanced programming skills to collect, clean, and analyze 
+                  large datasets, extracting meaningful insights, and developing predictive models to guide strategic business decisions.
+	              </p>
+            </div>
             <div className="flex gap-5 md:gap-7 justify-start items-center">
               <Link
                 to="/resume"
