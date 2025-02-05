@@ -19,8 +19,8 @@
 }
 
 .profile-circle {
-    width: 200px;  /* Adjust the size as needed */
-    height: 200px; /* Make sure width and height are the same for a perfect circle */
+    width: 400px;  /* Adjust the size as needed */
+    height: 400px; /* Make sure width and height are the same for a perfect circle */
     border-radius: 50%; /* This makes the div circular */
     overflow: hidden; /* Ensures the image doesn’t exceed the boundary of the div */
     border: 5px solid #FFFFFF; /* Adjust the color and size of the border */
