@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+  1. Name
+----------------------------------------------------------------*/
+.name-gradient {
+    background: linear-gradient(to right, #DA4453, #89216B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Keeps the gradient only on text */
+    font-size: 2.5rem; /* Adjust the font size as necessary */
+    font-weight: bold; /* Make the name bold */
+}
+
+.first-name {
+    font-family: 'Praveen', sans-serif; /* Customize the font family */
+}
+
+.last-name {
+    font-family: 'Lenkalapelly', sans-serif; /* Customize the font family */
+}
