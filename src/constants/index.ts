@@ -3,7 +3,7 @@ import { Ssms,python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, 
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
 import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp, MS_DS_Associate, Neo4j, Databricks, MS_DP} from '../assets/index';
 
-export const resumeLink = "https://drive.google.com/drive/folders/1FOr_4waHpiQL3e0qgHumIobHQEYiLxJ0";
+export const resumeLink = "https://drive.google.com/file/d/1CLpq41i35JeQUcCY4JSjF3UrYw7GmErp/view?usp=sharing";
 
 
 export const aboutMe = "I leverage advanced analytics and programming skills to transform large datasets into actionable insights, utilizing statistical methods and machine learning algorithms to drive strategic decisions and drive innovation. My expertise bridges the gap between raw data and significant business outcomes."
