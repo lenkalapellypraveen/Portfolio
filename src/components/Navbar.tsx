@@ -20,6 +20,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
+    <nav>
       <div className="w-full flex justify-between items-center mx-auto">
         <Link
           to="/"
