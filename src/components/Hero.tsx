@@ -25,16 +25,21 @@ const Hero = () => {
       >
         <div className="flex flex-col md:flex-row justify-between items-center mt-5 gap-3">
           <div className="flex flex-col gap-3 md:gap-5">
-            <h1>
-              <span className="name-gradient first-name">Praveen</span> 
-              <span className="name-gradient last-name"> Lenkalapelly</span>
-            </h1>
+            <p
+              className={`${styles.heroSubText} ${
+                isLight ? "text-black-200" : "text-white-100"
+              } mt-2`} 
+            >Hi I'm</p>
+              <h1>
+                <span className="name-gradient first-name">Praveen</span> 
+                <span className="name-gradient last-name"> Lenkalapelly</span>
+              </h1>
+            
             <p
               className={`${styles.heroSubText} ${
                 isLight ? "text-black-200" : "text-white-100"
               } mt-2`}
             >
-              I am a
               <span className="text-secondary-light">
                 <Typewriter
                   words={[
