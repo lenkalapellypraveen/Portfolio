@@ -20,7 +20,13 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav>
+    <nav
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        isLight ? "bg-white" : "bg-black"
+      } bg-opacity-60 backdrop-blur`}
+    >
       <div className="w-full flex justify-between items-center mx-auto">
         <Link
           to="/"
@@ -38,26 +44,6 @@ const Navbar = () => {
             Praveen Lenkalapelly
           </p>
         </Link>
-        <button
-          onClick={() => setIsLight(!isLight)}
-          className="text-sm ml-4 md:ml-0 md:text-xl flex border-black border-2 rounded-full bg-gray-500"
-        >
-          <div
-            className={`bg-yellow-200 rounded-full p-1 ${
-              !isLight ? "invisible" : null
-            }`}
-          >
-            🌞
-          </div>
-          <div
-            className={`bg-gray-700 rounded-full p-1 none ${
-              isLight ? "invisible" : null
-            }`}
-          >
-            🌚
-          </div>
-        </button>
-
         <ul className="list-none hidden sm:flex flex-row gap-10 justify-center items-center">
           {navLinks.map((link, linkIdx) => (
             <li
