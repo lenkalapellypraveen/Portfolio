@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { context } from "../App";
-import { Background, linkedin, github, gmail } from "../assets";
+import { comp, linkedin, github, gmail } from "../assets";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
@@ -89,7 +89,7 @@ const Hero = () => {
             </div>
           </div>
           <img
-            src={Background}
+            src={comp}
             alt="Working Man"
             className="pointer-events-none z-10"
           />

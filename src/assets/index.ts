@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import Background from "./Background.png";
+import comp from "./comp.png";
 import download from "./download.svg";
 import dropdown from "./dropdown.svg";
 import popout from "./popout.svg";
@@ -66,7 +66,7 @@ export {
   logo,
   menu,
   close,
-  Background,
+  comp,
   download,
   dropdown,
   popout,
