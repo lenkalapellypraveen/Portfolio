@@ -23,8 +23,8 @@ const Hero = () => {
       <section
         className={`relative z-30 shrink-0 w-full h-screen mx-auto ${styles.paddingX} pt-[120px] max-w-7xl mx-auto flex items-start justify-between`}
       >
-        <div className="flex flex-col md:flex-row justify-around items-center mt-5 gap-3">
-          <div className="flex flex-col gap-3 md:gap-5">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-3 gap-1">
+          <div className="flex flex-col gap-1 md:gap-3">
             <p
               className={`${styles.heroSubText} ${
                 isLight ? "text-black-200" : "text-white-100"
@@ -57,7 +57,7 @@ const Hero = () => {
               </span>
             </p>
             <div class="text-secondary-text-light text-[17px] max-w-5xl leading-[30px] md:ml-3 text-justify">
-	              <p>&nbsp;&nbsp;&nbsp;Data Professional leveraging statistical analysis, machine learning, and advanced programming skills to collect, clean, and analyze 
+	              <p>&nbsp;Data Professional leveraging statistical analysis, machine learning, and advanced programming skills to collect, clean, and analyze 
                   large datasets, extracting meaningful insights, and developing predictive models to guide strategic business decisions.
 	              </p>
             </div>
