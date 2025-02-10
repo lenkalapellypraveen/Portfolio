@@ -4,7 +4,6 @@ import { styles } from "../styles";
 import { projects } from "../constants";
 import { github } from "../assets";
 
-
 const Projects = () => {
     const { isLight } = useContext(context);
 
@@ -40,7 +39,7 @@ const Projects = () => {
         <div className="mb-4">
           {/* Individual Project */}
           <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col">
-            <img src={tech}/>
+            <img src="src\assets\projects\Genomic_Ancestry_Prediction.png"/>
             <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-all duration-500">
               <h4 className="text-2xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
               <p className="text-base mb-3">Click the link for more information</p>
