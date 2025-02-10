@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
             {/* code for Project img */}
             <div class="projects-box" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
-              <img src="images/ipp2.jpg" alt="">
+              <img src="images/ipp2.jpg" alt=""/>
               <div class="projects-layer">
                   <h4>Diabetic Retinopathy Detection System</h4>
                   <p>Learn more about diabetic retinopathy detection in healthcare by clicking the link.</p>
