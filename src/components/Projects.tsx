@@ -21,7 +21,7 @@ const Projects = () => {
                     <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0 mr-2 first:ml-0" style={{ width: '500px' }}>
                         <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
                         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-transform duration-500 ease-in-out z-10">
-                            <h4 className="text-4xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
+                            <h4 className="text-3.5xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
                             <p className="text-base mb-3">Click the link for more information</p>
                             <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
                             <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
@@ -32,7 +32,7 @@ const Projects = () => {
                     <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0 mr-2 first:ml-0" style={{ width: '500px' }}>
                         <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
                         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-4xl mb-2">Real-Time Weather prediction with API Integration</h4>
+                            <h4 className="text-4.5xl mb-2">Real-Time Weather prediction with API Integration</h4>
                             <p className="text-base mb-3">Click the link for more information</p>
                             <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
                                 <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
@@ -43,7 +43,7 @@ const Projects = () => {
                     <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0" style={{ width: '500px' }}>
                         <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
                         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-4xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
+                            <h4 className="text-5.5xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
                             <p className="text-base mb-3">Click the link for more information</p>
                             <a href="https://github.com/lenkalapellypraveen/Automated-Brain-Tumor-Segmentation-and-Detection-Using-Deep-Neural-Networks-on-FLAIR-MRI" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
                                 <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
