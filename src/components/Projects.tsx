@@ -12,10 +12,10 @@ const Projects = () => {
 
 
     return (
-        <div id="projects" className={`mt-4 ${styles.paddingX} max-w-7xl mx-auto flex flex-col items-start justify-between`}>
+        <div id="projects" className={`mt-2 ${styles.paddingX} max-w-7xl mx-auto flex flex-col items-start justify-between`}>
             <h2 className={`${styles.sectionHeadText} ${isLight ? "text-black-100" : "text-white-100"} mb-16`}>Projects.</h2>
             
-            <section className="min-h-screen py-28 px-[9%] overflow-x-auto">
+            <section className="min-h-screen py-28 px-[0%] overflow-x-auto">
                 <div className="flex flex-row flex-nowrap items-center justify-start">
                     {/* First Project with zero left margin */}
                     <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0 mr-2 first:ml-0" style={{ width: '500px' }}>
@@ -29,7 +29,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Second Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0" style={{ width: '500px' }}>
+                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0 mr-2 first:ml-0" style={{ width: '500px' }}>
                         <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
                         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-all duration-500 z-10">
                             <h4 className="text-4xl mb-2">Real-Time Weather prediction with API Integration</h4>
