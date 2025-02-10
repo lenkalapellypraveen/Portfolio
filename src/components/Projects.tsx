@@ -20,7 +20,7 @@ const Projects = () => {
 
                 <div class="projects-container">
                     <div class="projects-box" data-sr-id="8" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
-                        <img src={Genomic_Ancestry_Prediction} alt="">
+                        <img src={Genomic_Ancestry_Prediction} alt=""/>
                         <div class="projects-layer">
                             <h4>Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
                             <p>Click the link for more information</p>
@@ -29,7 +29,7 @@ const Projects = () => {
                     </div>
 
                     <div class="projects-box" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
-                    <img src={Weather_Prediction} alt="">
+                    <img src={Weather_Prediction} alt=""/>
                     <div class="projects-layer">
                         <h4>Real-Time Weather prediction with API Integration</h4>
                         <p>Click the link for more information</p>
@@ -38,7 +38,7 @@ const Projects = () => {
                     </div>
 
                     <div class="projects-box" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
-                    <img src={Brain_Tumor} alt="">
+                    <img src={Brain_Tumor} alt=""/>
                     <div class="projects-layer">
                         <h4>Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
                         <p>Click the link for more information</p>
