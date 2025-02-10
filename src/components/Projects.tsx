@@ -39,44 +39,45 @@ const Projects = () => {
             <section className="min-h-screen py-28 px-[9%]">
                 <div className="flex flex-col items-center justify-center">
                     {/* Projects Container */}
-                    <div className="mb-4">
-                    {/* First Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group">
-                        <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-2xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
+                    <div className="flex flex-row flex-wrap justify-center items-center"> {/* Changed to horizontal layout */}
+                        {/* First Project */}
+                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-col group">
+                            <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
+                            <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
+                                <h4 className="text-2xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
+                                <p className="text-base mb-3">Click the link for more information</p>
+                                <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
+                                    <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    {/* Second Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group mt-8">
-                        <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-2xl mb-2">Real-Time Weather prediction with API Integration</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
+                        {/* Second Project */}
+                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-col group">
+                            <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
+                            <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
+                                <h4 className="text-2xl mb-2">Real-Time Weather prediction with API Integration</h4>
+                                <p className="text-base mb-3">Click the link for more information</p>
+                                <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
+                                    <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    {/* Third Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group mt-8">
-                        <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-2xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
+                        {/* Third Project */}
+                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-col group">
+                            <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
+                            <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
+                                <h4 className="text-2xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
+                                <p className="text-base mb-3">Click the link for more information</p>
+                                <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
+                                    <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    {/* Additional projects would follow the same pattern */}
+                        {/* Additional projects would follow the same pattern */}
                     </div>
                 </div>
             </section>
+
 
           
         </div>
