@@ -15,42 +15,36 @@ const Projects = () => {
         <div id="projects" className={`mt-2 ${styles.paddingX} max-w-7xl mx-auto flex flex-col items-start justify-between`}>
             <h2 className={`${styles.sectionHeadText} ${isLight ? "text-black-100" : "text-white-100"} mb-8`}>Projects.</h2>
             
-            <section className="min-h-screen py-28 px-[0%] overflow-x-auto">
-                <div className="flex flex-row flex-nowrap items-center justify-start">
-                    {/* First Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group mr-4 first:ml-0">
-                        <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-2xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
+            <section class="projects" id="projects">
+                <h2 class="heading" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">Latest <span>Project</span></h2>
+
+                <div class="projects-container">
+                    <div class="projects-box" data-sr-id="8" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                        <img src={Genomic_Ancestry_Prediction} alt="">
+                        <div class="projects-layer">
+                            <h4>Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
+                            <p>Click the link for more information</p>
+                            <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration"><i class="bx bx-link-external"></i></a>
                         </div>
                     </div>
-                    {/* Second Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group mr-4">
-                        <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-2xl mb-2">Real-Time Weather prediction with API Integration</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
-                        </div>
+
+                    <div class="projects-box" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                    <img src={Weather_Prediction} alt="">
+                    <div class="projects-layer">
+                        <h4>Real-Time Weather prediction with API Integration</h4>
+                        <p>Click the link for more information</p>
+                        <a href="https://github.com/lenkalapellypraveen/Real-Time-Weather-prediction-with-API-Integration"><i class="bx bx-link-external"></i></a>
                     </div>
-                    {/* Third Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group" style={{ width: '600px' }}>
-                        <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
-                        <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
-                            <h4 className="text-1.8xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
-                            <p className="text-base mb-3">Click the link for more information</p>
-                            <a href="https://github.com/lenkalapellypraveen/Automated-Brain-Tumor-Segmentation-and-Detection-Using-Deep-Neural-Networks-on-FLAIR-MRI" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                                <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
-                            </a>
-                        </div>
                     </div>
-                    {/* Additional projects would follow the same structure */}
+
+                    <div class="projects-box" data-sr-id="10" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+                    <img src={Brain_Tumor} alt="">
+                    <div class="projects-layer">
+                        <h4>Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
+                        <p>Click the link for more information</p>
+                        <a href="https://github.com/lenkalapellypraveen/Automated-Brain-Tumor-Segmentation-and-Detection-Using-Deep-Neural-Networks-on-FLAIR-MRI"><i class="bx bx-link-external"></i></a>
+                    </div>
+                    </div>
                 </div>
             </section>
         </div>
