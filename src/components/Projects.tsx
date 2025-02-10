@@ -52,7 +52,7 @@ const Projects = () => {
                             </div>
                         </div>
                         {/* Second Project */}
-                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-col group">
+                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-row group">
                             <img src={Weather_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
                             <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
                                 <h4 className="text-2xl mb-2">Real-Time Weather prediction with API Integration</h4>
@@ -63,7 +63,7 @@ const Projects = () => {
                             </div>
                         </div>
                         {/* Third Project */}
-                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-col group">
+                        <div className="relative rounded-2xl shadow-lg overflow-hidden m-4 flex flex-row group">
                             <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
                             <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
                                 <h4 className="text-2xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
