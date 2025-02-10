@@ -17,14 +17,14 @@ const Projects = () => {
         
         <section className="min-h-screen py-28 px-[9%] overflow-x-auto">
             <div className="flex flex-row flex-nowrap items-center justify-start space-x-4">
-                {/* Project 1 */}
+                {/* First Project*/}
                 <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0" style={{ width: '400px' }}>
                     <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
-                    <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-all duration-500 z-10">
+                    <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full hover:translate-y-0 transition-transform duration-500 ease-in-out z-10">
                         <h4 className="text-2xl mb-2">Genomic Ancestry Prediction through Advanced Machine Learning Integration</h4>
                         <p className="text-base mb-3">Click the link for more information</p>
                         <a href="https://github.com/lenkalapellypraveen/Genomic-Ancestry-Prediction-through-Advanced-Machine-Learning-Integration" className="inline-flex justify-center items-center w-20 h-20 bg-white rounded-full">
-                            <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
+                        <i className='bx bx-link-external text-2xl text-[#112e42]'></i>
                         </a>
                     </div>
                 </div>
