@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className={`mt-2 ${styles.paddingX} max-w-7xl mx-auto flex flex-col items-start justify-between`}>
-            <h2 className={`${styles.sectionHeadText} ${isLight ? "text-black-100" : "text-white-100"} mb-16`}>Projects.</h2>
+            <h2 className={`${styles.sectionHeadText} ${isLight ? "text-black-100" : "text-white-100"} mb-8`}>Projects.</h2>
             
             <section className="min-h-screen py-28 px-[0%] overflow-x-auto">
                 <div className="flex flex-row flex-nowrap items-center justify-start">
@@ -40,8 +40,8 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* Third Project */}
-                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group">
-                        <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-150" />
+                    <div className="relative rounded-2xl shadow-lg overflow-hidden flex flex-col group" style={{ width: '600px' }}>
+                        <img src={Brain_Tumor} alt="" className="w-full transition-all duration-500 ease-in-out transform group-hover:scale-110" />
                         <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.1)] to-[#0ef] flex flex-col justify-center items-center text-center p-16 translate-y-full group-hover:translate-y-0 transition-all duration-500 z-10">
                             <h4 className="text-1.8xl mb-2">Automated Brain Tumor Segmentation and Detection Using Deep Neural Networks on FLAIR MRI</h4>
                             <p className="text-base mb-3">Click the link for more information</p>
