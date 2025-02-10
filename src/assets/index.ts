@@ -56,7 +56,7 @@ import Cloud_Engineer from './skills/Cloud_Engineer.png';
 import leethub from './projects/leethub.png';
 import Weather_Prediction from './projects/weather_prediction.png'
 import Genomic_Ancestry_Prediction from './projects/Genomic_Ancestry_Prediction.png'
-import testing_image from './projects/testing_image.jpg'
+import testing_image from './projects/testing_image.png'
 import Microsoft_Fabric from './projects/Microsoft_Fabric.png'
 import Polyp from './projects/Polyp.png'
 import linkedList from './projects/LinkedList.jpg';
