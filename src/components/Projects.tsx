@@ -33,16 +33,16 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-            {/* code for Project img */}
-            <div class="projects-box" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
-              <img src="images/ipp2.jpg" alt=""/>
-              <div class="projects-layer">
+            
+            <div data-sr-id="9" className="projects-box visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
+              <img src="../src/assets/comp.png" alt=""/>
+              <div className="projects-layer">
                   <h4>Diabetic Retinopathy Detection System</h4>
                   <p>Learn more about diabetic retinopathy detection in healthcare by clicking the link.</p>
                   <a href="https://github.com/picoders1/AI-Driven-DR-Detection-System"><i class="bx bx-link-external"></i></a>
               </div>
             </div>
-            {/* Project */}
+          
         </div>
     )
 }
