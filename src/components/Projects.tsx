@@ -16,7 +16,7 @@ const Projects = () => {
         <h2 className={`${styles.sectionHeadText} ${isLight ? "text-black-100" : "text-white-100"} mb-16`}>Projects.</h2>
         
         <section className="min-h-screen py-28 px-[9%] overflow-x-auto">
-            <div className="flex flex-row flex-nowrap items-center justify-start space-x-2">
+            <div className="flex flex-row flex-nowrap items-center justify-start">
                 {/* First Project*/}
                 <div className="relative rounded-2xl shadow-lg overflow-hidden flex-shrink-0" style={{ width: '500px' }}>
                     <img src={Genomic_Ancestry_Prediction} alt="" className="w-full transition-all duration-500 ease-in-out transform hover:scale-110" />
