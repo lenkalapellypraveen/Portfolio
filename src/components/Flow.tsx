@@ -90,33 +90,32 @@ const TimelineComponent: React.FC = () => {
 
   return (
     <div>
-    <h2 className="mb-16 text-6xl font-bold text-center">Experience & Education</h2>
-    <div className="relative m-10">
-      <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
-      {entries.map((entry, index) => (
-        <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5 relative`}>
-          <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} relative`}>
-            {/* Image centering adjustment */}
-            <div className="absolute left-1/2 transform -translate-x-1/2">
-              <img src={entry.icon} alt="Icon" className="w-[55px] h-[55px]" />
-            </div>
-            <div className="bg-gray-300 p-4 rounded-lg shadow ml-20">
-              <h3 className="text-xl font-bold">{entry.title}</h3>
-              <p className="text-lg">{entry.company}</p>
-              <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
-              <ul>
-                {entry.description.map((desc, idx) => (
-                  <li key={idx} className="text-sm">{desc}</li>
-                ))}
-              </ul>
+      <h2 className="mb-16 text-6xl font-bold text-center">Experience & Education</h2>
+      <div className="relative m-10">
+        <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
+        {entries.map((entry, index) => (
+          <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5 relative`}>
+            <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} relative`}>
+              {/* Center the image on the line */}
+              <div className="absolute left-1/2 transform -translate-x-1/2">
+                <img src={entry.icon} alt="Icon" className="w-[55px] h-[55px]" />
+              </div>
+              <div className="bg-gray-300 p-4 rounded-lg shadow ml-20">
+                <h3 className="text-xl font-bold">{entry.title}</h3>
+                <p className="text-lg">{entry.company}</p>
+                <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
+                <ul>
+                  {entry.description.map((desc, idx) => (
+                    <li key={idx} className="text-sm">{desc}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-  </div>
-  
-  
+
   );
 };
 
