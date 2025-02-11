@@ -89,6 +89,13 @@ const TimelineComponent: React.FC = () => {
   ];
 
   return (
+    <h2
+          className={`${styles.sectionHeadText} ${
+            isLight ? "text-black-100" : "text-white-100"
+          } mb-16`}
+    >
+    Experience & Education.
+    </h2>
     <div className="relative m-10">
       <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
       {entries.map((entry, index) => (
