@@ -8,6 +8,7 @@ import Footer from './Footer';
 import Projects from './Projects';
 import Contact from './Contact';
 import Achievements from './Achievements';
+import TimelineComponent from './Flow';
 
 export {
   Hero,
@@ -19,5 +20,6 @@ export {
   Projects,
   Achievements,
   Contact,
-  Footer
+  Footer,
+  TimelineComponent
 }

@@ -9,6 +9,7 @@ import {
   Projects,
   Achievements,
   Contact,
+  TimelineComponent,
 } from "./components";
 import { context } from "./App";
 
@@ -28,6 +29,7 @@ const MainSite = () => {
       <About />
       <Tech />
       <Websites />
+      <TimelineComponent />
       <Projects />
       <Achievements />
       <Contact />

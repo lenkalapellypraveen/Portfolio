@@ -12,18 +12,10 @@ interface SkillCardProps {
 const SkillCard = ({ title, icon }: SkillCardProps) => {
   const { isLight } = useContext(context);
   return (
-    <Tilt
+    <div
       className={`${
         isLight ? "blood-blue-gradient" : "rose-sky-gradient"
       } xs:w-[250px] w-full p-[1px] bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex items-center flex-col`}
-      glareColor={isLight ? "#FF7272" : "#A91079"}
-      glareEnable={true}
-      gyroscope={true}
-      glareBorderRadius="20px"
-      glareMaxOpacity={0.5}
-      glarePosition="all"
-      perspective={500}
-      style={{ transformStyle: "preserve-3d" }}
     >
       <img
         src={icon}
@@ -39,7 +31,7 @@ const SkillCard = ({ title, icon }: SkillCardProps) => {
       >
         {title}
       </h3>
-    </Tilt>
+    </div>
   );
 };
 
