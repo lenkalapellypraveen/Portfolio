@@ -42,7 +42,7 @@ const TimelineComponent: React.FC = () => {
     <div className="relative m-10">
       <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
       {entries.map((entry, index) => (
-        <div key={index} className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+        <div key={index} className={`flex ${index % 2 === 1 ? 'justify-start' : 'justify-end'}`}>
           <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
             <img src={entry.icon} alt="Icon" className="w-10 h-10" />
             <div className="bg-white p-4 rounded-lg shadow">
