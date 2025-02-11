@@ -96,7 +96,7 @@ const TimelineComponent: React.FC = () => {
         {entries.map((entry, index) => (
           <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5`}>
             <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
-              <img src={entry.icon} alt="Icon" className="w-12 h-12 rounded" />
+              <img src={entry.icon} alt="Icon" className="w-13 h-13 rounded" />
               <div className="bg-gray-300 p-4 rounded-lg shadow">
                 <h3 className="text-xl font-bold">{entry.title}</h3>
                 <p className="text-lg">{entry.company}</p>
