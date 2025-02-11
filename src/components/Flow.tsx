@@ -15,7 +15,7 @@ const TimelineComponent: React.FC = () => {
       title: "Data Scientist",
       company: "Modak Analytics",
       description: [
-        "Improved Google search indexability by 70% with an average CTR of 40% by fine-tuning a generative algorithm to paraphrase blogs for Shopify stores.",
+        "Improved Google search indexability by 70% with an average CTR of 40% by fine-tuning a generative algorithm.",
         "Enhanced content readability of blogs using LLMs to achieve Gunning Fog Index scores between 9-12.",
         "Increased sign up rates by 12% through A/B testing various onboarding processes.",
         "Architected data pipelines using Apache Airflow and compiled SQL queries to visualize data on Tableau"
