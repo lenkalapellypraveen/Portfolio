@@ -108,7 +108,7 @@ const Contact = () => {
                   name="name"
                   type="text"
                   required
-                  placeholder="John Doe"
+                  placeholder="Praveen Lenkalapelly"
                 />
                 {errors.name && (
                   <span className="text-red-500 text-sm">{errors.name}</span>
