@@ -89,32 +89,28 @@ const TimelineComponent: React.FC = () => {
   ];
 
   return (
-    <h2
-          className={`${styles.sectionHeadText} ${
-            isLight ? "text-black-100" : "text-white-100"
-          } mb-16`}
-    >
-    Experience & Education.
-    </h2>
-    <div className="relative m-10">
-      <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
-      {entries.map((entry, index) => (
-        <div key={index} className={`flex ${index % 2 === 1 ? 'justify-start' : 'justify-end'}`}>
-          <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-            <img src={entry.icon} alt="Icon" className="w-10 h-10" />
-            <div className="bg-white p-4 rounded-lg shadow">
-              <h3 className="text-xl font-bold">{entry.title}</h3>
-              <p className="text-lg">{entry.company}</p>
-              <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
-              <ul>
-                {entry.description.map((desc, idx) => (
-                  <li key={idx} className="text-sm">{desc}</li>
-                ))}
-              </ul>
+    <div>
+      <h2 className="mb-16 text-xl font-bold text-center">Experience & Education</h2>
+      <div className="relative m-10">
+        <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
+        {entries.map((entry, index) => (
+          <div key={index} className={`flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'} my-5`}>
+            <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
+              <img src={entry.icon} alt="Icon" className="w-10 h-10" />
+              <div className="bg-white p-4 rounded-lg shadow">
+                <h3 className="text-xl font-bold">{entry.title}</h3>
+                <p className="text-lg">{entry.company}</p>
+                <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
+                <ul>
+                  {entry.description.map((desc, idx) => (
+                    <li key={idx} className="text-sm">{desc}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
