@@ -14,7 +14,7 @@ const Websites = () => {
       degree: "Masters",
       institution: "Florida Atlantic University",
       description: "Master of Science in Data Science and Analytics, 2023 - 2024",
-      link: "https://myfau.fau.edu/u/myfau/index",
+      link: "",
     },
     {
       degree: "Bachelors",
