@@ -1,4 +1,6 @@
 import React from 'react';
+import { Data_Scientist } from '../assets';
+import { Data_Engineer } from '../assets';
 
 interface TimelineEntry {
   title: string;
@@ -22,7 +24,7 @@ const TimelineComponent: React.FC = () => {
       ],
       startDate: "May 2022",
       endDate: "July 2024",
-      icon: "path_to_star_icon.png"
+      icon: {Data_Scientist}
     },
     {
       title: "Data Engineer",
@@ -34,7 +36,7 @@ const TimelineComponent: React.FC = () => {
       ],
       startDate: "April 2021",
       endDate: "May 2022",
-      icon: "path_to_star_icon.png"
+      icon: {Data_Engineer}
     }
   ];
 
