@@ -40,22 +40,22 @@ const TimelineComponent: React.FC = () => {
 
   return (
     <div className="relative m-10">
-      <div className="absolute inset-0 m-auto z-0 w-1 bg-gray-300" style={{ left: '50%' }}></div>
+      <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
       {entries.map((entry, index) => (
-        <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'items-start' : 'items-end text-right'} mb-8`}>
-          <div className="flex items-center space-x-4">
-            <img src={entry.icon} alt="Icon" className={`w-10 h-10 ${index % 2 === 1 && 'order-last ml-4'}`} />
-            <div>
-              <h3 className="text-xl font-bold text-gray-800">{entry.title}</h3>
-              <p className="text-lg text-gray-600">{entry.company}</p>
-              <span className="text-sm text-gray-500">{`${entry.startDate} - ${entry.endDate}`}</span>
+        <div key={index} className={`flex ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+          <div className={`flex items-center space-x-4 ${index % 2 === 1 ? 'flex-row-reverse space-x-reverse' : ''}`}>
+            <img src={entry.icon} alt="Icon" className="w-10 h-10" />
+            <div className="bg-white p-4 rounded-lg shadow">
+              <h3 className="text-xl font-bold">{entry.title}</h3>
+              <p className="text-lg">{entry.company}</p>
+              <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
+              <ul>
+                {entry.description.map((desc, idx) => (
+                  <li key={idx} className="text-sm">{desc}</li>
+                ))}
+              </ul>
             </div>
           </div>
-          <ul className="mt-2 bg-white shadow-lg rounded-lg p-4 w-72">
-            {entry.description.map((desc, idx) => (
-              <li key={idx} className="text-gray-700 text-sm list-disc">{desc}</li>
-            ))}
-          </ul>
         </div>
       ))}
     </div>
