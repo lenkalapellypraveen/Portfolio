@@ -97,7 +97,7 @@ const TimelineComponent: React.FC = () => {
           <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5`}>
             <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
               <img src={entry.icon} alt="Icon" className="w-10 h-10" />
-              <div className="bg-white p-4 rounded-lg shadow">
+              <div className="bg-gray-100 p-4 rounded-lg shadow">
                 <h3 className="text-xl font-bold">{entry.title}</h3>
                 <p className="text-lg">{entry.company}</p>
                 <span className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
