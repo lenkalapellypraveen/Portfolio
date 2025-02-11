@@ -60,6 +60,21 @@ const TimelineComponent: React.FC = () => {
       icon: '../assets/skills/Data_Engineer.png'
     },
     {
+      title: "Data Engineer",
+      company: "UST Global",
+      description: [
+        "• Built Azure Data Factory pipelines to aggregate data from external APIs, improving data accessibility",
+        "and ensuring regulatory compliance for healthcare-related data.",
+        "• Crafted custom scripts to optimize CRUD operations in database management systems,",
+        "reducing execution time by 30% and supporting business operations.",
+        "• Streamlined GitHub repositories and enhanced CI/CD workflows using advanced scripting,",
+        "improving pipeline reliability by 35% and ensuring seamless code deployments."
+      ],
+      startDate: "July 2020",
+      endDate: "April 2021",
+      icon: '../assets/skills/Data_Engineer.png'
+    },
+    {
       title: "Bachelor of Technology - Electronics and Communications Engineering",
       company: "Gokaraju Rangaraju Institute of Engineering and Technology",
       description: [
