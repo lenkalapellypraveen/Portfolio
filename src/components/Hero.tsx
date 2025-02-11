@@ -23,7 +23,7 @@ const Hero = () => {
       <section
         className={`relative z-30 shrink-0 w-full h-screen mx-auto ${styles.paddingX} pt-[120px] max-w-7xl mx-auto flex items-start justify-between`}
       >
-        <div className="flex flex-col md:flex-row justify-between items-center mt-[60px] gap-1">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-[80px] gap-1">
           <div className="flex flex-col gap-1 md:gap-3">
             <p
               className={`${styles.heroSubText} ${
