@@ -15,10 +15,18 @@ const TimelineComponent: React.FC = () => {
       title: "Data Scientist",
       company: "Modak Analytics",
       description: [
-        "Improved Google search indexability by 70% with an average CTR of 40% by fine-tuning a generative algorithm.",
-        "Enhanced content readability of blogs using LLMs to achieve Gunning Fog Index scores between 9-12.",
-        "Increased sign up rates by 12% through A/B testing various onboarding processes.",
-        "Architected data pipelines using Apache Airflow and compiled SQL queries to visualize data on Tableau"
+        "• Led the development of large-scale data pipelines using Python, focusing on AI and statistical"
+        " modeling for predictive analytics and complex GenAI challenges.",
+        "• Constructed machine learning models using Azure Machine Learning, boosting model accuracy by 25%."
+        " Employed MLOps for streamlined deployment, and feature engineering within the Azure OpenAI.",
+        "• Integrated Azure Databricks with Power BI for real-time data visualization, facilitating "
+        "process optimization and data manipulation by reducing report generation time by 35%.",
+        "• Developed SQL frameworks and Python algorithms with Natural Language Processing for trend analysis,"
+        " cutting query response time by 30% and boosting management decision efficiency by 15%.",
+        "• Applied complex statistical methods and machine learning algorithms to enhance operational efficiency by 25%,"
+        " seamlessly integrating approaches into various GenAI applications to comply with evolving industry standards.",
+        "• Developed algorithms using Python to analyze real-time data streams via Confluent Kafka, employing research, "
+        "A/B testing, and applied mathematics to identify emergent patterns, enhancing operational responsiveness by 35%."
       ],
       startDate: "May 2022",
       endDate: "July 2024",
@@ -28,9 +36,12 @@ const TimelineComponent: React.FC = () => {
       title: "Data Engineer",
       company: "Modak Analytics",
       description: [
-        "Designed a content-based recommendation system using cosine similarity, processing 10K+ products",
-        "Reduced data retrieval time by 15% through optimizing existing SQL queries",
-        "Implemented role-based access control (RBAC) policies on database tables from 20+ sources"
+        "• Developed bulk ingestion data pipelines using StreamSets, and custom-coded pipelines in Spark-Scala"
+        "/PySpark for ETL operations into Amazon S3 and Hive, enhancing data warehousing accuracy by 20%.",
+        "• Configured AWS Lambda in conjunction with CI/CD tools such as CodePipeline and CodeCommit, automating "
+        "data migration processes with Python scripts to eliminate over 50 hours of manual tasks monthly.",
+        "• Optimized business operations by automating data pipeline scheduling with Python DAG scheduler,"
+        " orchestrating sequential and dependent data flows to enhance overall data processing efficiency."
       ],
       startDate: "April 2021",
       endDate: "May 2022",
