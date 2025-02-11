@@ -28,7 +28,6 @@ const MainSite = () => {
       <Hero />
       <About />
       <Tech />
-      <Websites />
       <TimelineComponent />
       <Projects />
       <Achievements />
