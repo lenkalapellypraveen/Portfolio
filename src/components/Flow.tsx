@@ -12,6 +12,18 @@ interface TimelineEntry {
 const TimelineComponent: React.FC = () => {
   const entries: TimelineEntry[] = [
     {
+      title: "Master of Science - Data Science and Analytics",
+      company: "Florida Atlantic University",
+      description: [
+        "Related Courses: Intro to Data Science, Intro to Business Analytics and Big data, Data Mining and Machine Learning,", 
+        "Deep Learning, Database Management Systems, Data Management and Analysis with Excel, Cloud Computing,", 
+        "Artificial Intelligence, Big Data Analytics with Hadoop, Reinforcement Learning."
+      ],
+      startDate: "August 2023",
+      endDate: "December 2024",
+      icon: '../assets/skills/Data_Scientist.png'
+    },
+    {
       title: "Data Scientist",
       company: "Modak Analytics",
       description: [
