@@ -92,11 +92,11 @@ const TimelineComponent: React.FC = () => {
     <div>
       <h2 className="mb-16 text-6xl font-bold text-center">Experience & Education</h2>
       <div className="relative m-10">
-        <div className="absolute inset-0 flex items-center justify-center w-0.75 bg-gray-300" style={{ left: '50%' }}></div>
+        <div className="absolute inset-0 flex items-center justify-center w-1 bg-gray-300" style={{ left: '50%' }}></div>
         {entries.map((entry, index) => (
           <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5`}>
             <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}>
-              <img src={entry.icon} alt="Icon" className="bg-blue-600 w-[55px] h-[55px] rounded" />
+              <img src={entry.icon} alt="Icon" className="w-[55px] h-[55px] rounded" />
               <div className="bg-gray-300 p-4 rounded-lg shadow">
                 <h3 className="text-xl font-bold">{entry.title}</h3>
                 <p className="text-lg">{entry.company}</p>
