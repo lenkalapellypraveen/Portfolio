@@ -90,7 +90,7 @@ const TimelineComponent: React.FC = () => {
 
   return (
     <div>
-      <h2 className="mb-16 text-xl font-bold text-center">Experience & Education</h2>
+      <h2 className="mb-16 text-3xl font-bold text-center">Experience & Education</h2>
       <div className="relative m-10">
         <div className="absolute inset-0 flex items-center justify-center w-0.5 bg-gray-300" style={{ left: '50%' }}></div>
         {entries.map((entry, index) => (
