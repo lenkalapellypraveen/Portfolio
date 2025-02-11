@@ -22,7 +22,7 @@ const TimelineComponent: React.FC = () => {
       ],
       startDate: "May 2022",
       endDate: "July 2024",
-      icon: '../assets/skills/Data_Scientist'
+      icon: '../assets/skills/Data_Scientist.png'
     },
     {
       title: "Data Engineer",
@@ -34,27 +34,28 @@ const TimelineComponent: React.FC = () => {
       ],
       startDate: "April 2021",
       endDate: "May 2022",
-      icon: '../assets/skills/Data_Engineer'
+      icon: '../assets/skills/Data_Engineer.png'
     }
   ];
 
   return (
-    <div className="flex flex-col mt-20 gap-8">
+    <div className="flex flex-col my-10">
       {entries.map((entry, index) => (
-        <div key={index} className="flex flex-col items-center sm:flex-row sm:justify-center gap-4">
-          <div className="flex items-center">
-            <img src={entry.icon} alt="Icon" className="w-10 h-10"/>
-            <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
-              <h3 className="text-white text-xl font-bold">{entry.title}</h3>
-              <p className="text-secondary text-lg font-semibold">{entry.company}</p>
-              <span className="text-gray-400 text-sm">{`${entry.startDate} - ${entry.endDate}`}</span>
+        <div key={index} className="relative mb-8 pl-10">
+          <div className="absolute top-0 -left-2.5 w-5 h-5 bg-blue-500 rounded-full shadow"></div>
+          {index !== entries.length - 1 && <div className="absolute w-1 bg-gray-300 h-full top-5 left-0"></div>}
+          <div className="flex items-start gap-4">
+            <img src={entry.icon} alt="Icon" className="w-12 h-12 mt-1"/>
+            <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg">
+              <h3 className="text-xl font-bold">{entry.title} at {entry.company}</h3>
+              <p className="text-gray-400">{`${entry.startDate} - ${entry.endDate}`}</p>
+              <ul className="list-disc space-y-2 pl-5">
+                {entry.description.map((desc, idx) => (
+                  <li key={idx} className="text-sm">{desc}</li>
+                ))}
+              </ul>
             </div>
           </div>
-          <ul className="list-disc bg-[#1D1836] p-4 rounded-lg text-white">
-            {entry.description.map((desc, idx) => (
-              <li key={idx} className="text-sm">{desc}</li>
-            ))}
-          </ul>
         </div>
       ))}
     </div>
