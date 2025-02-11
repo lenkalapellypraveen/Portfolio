@@ -39,7 +39,7 @@ const TimelineComponent: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col my-10">
+    <div className="flex flex-col items-center my-10">
       {entries.map((entry, index) => (
         <div key={index} className="relative mb-8 pl-10">
           <div className="absolute top-0 -left-2.5 w-5 h-5 bg-blue-500 rounded-full shadow"></div>
