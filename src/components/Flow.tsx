@@ -46,6 +46,18 @@ const TimelineComponent: React.FC = () => {
       startDate: "April 2021",
       endDate: "May 2022",
       icon: '../assets/skills/Data_Engineer.png'
+    },
+    {
+      title: "Bachelor of Technology - Electronics and Communications Engineering",
+      company: "Gokaraju Rangaraju Institute of Engineering and Technology",
+      description: [
+        "Related Courses: Data Structures and Algorithms, C Programming, Object Oriented Programming in JAVA,", 
+        "Computer Networks, Programming, Data Structures and Algorithms in Python, Digital Image Processing,",
+        "Wireless Communications and Networks, Principles of Cloud Computing."
+      ],
+      startDate: "July 2017",
+      endDate: "April 2021",
+      icon: '../assets/skills/Data_Engineer.png'
     }
   ];
 
