@@ -6,7 +6,7 @@ interface TimelineEntry {
   description: string[];
   startDate: string;
   endDate: string;
-  icon: string; // Path to the icon
+  icon: string;
 }
 
 const TimelineComponent: React.FC = () => {
@@ -38,37 +38,32 @@ const TimelineComponent: React.FC = () => {
     }
   ];
 
-  const ref = useRef<HTMLDivElement>(null);
+  // Use the last entry's ref to adjust the line length
+  const lastItemRef = useRef<HTMLDivElement>(null);
   const [lineHeight, setLineHeight] = useState(0);
 
   useEffect(() => {
-    if (ref.current) {
-      // Calculate the height of the container minus the height of the last item to ensure the line does not overshoot
-      setLineHeight(ref.current.offsetHeight - ref.current.lastChild!.clientHeight);
+    if (lastItemRef.current) {
+      setLineHeight(lastItemRef.current.offsetTop);
     }
-  }, [ref]);
+  }, [lastItemRef]);
 
   return (
-    <div ref={ref} className="relative flex flex-col items-center mt-20 gap-8 px-10">
+    <div className="relative flex flex-col items-center mt-10">
       {entries.map((entry, index) => (
-        <div key={index} className="flex items-start gap-4">
-          <div className="relative flex-shrink-0">
-            <img src={entry.icon} alt="Icon" className="w-12 h-12" />
-            {index < entries.length - 1 && (
-              <div className="absolute w-0.5 bg-blue-500 left-1/2 -ml-0.5 top-full" style={{ height: `${lineHeight}px` }}></div>
-            )}
-          </div>
-          <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg flex-grow">
-            <h3 className="text-xl font-bold">{entry.title} at {entry.company}</h3>
-            <p className="text-gray-400">{`${entry.startDate} - ${entry.endDate}`}</p>
-            <ul className="list-disc space-y-2 pl-5 mt-2">
-              {entry.description.map((desc, idx) => (
-                <li key={idx} className="text-sm">{desc}</li>
-              ))}
-            </ul>
-          </div>
+        <div key={index} className="flex flex-col items-center text-center p-5 bg-gray-800 text-white w-96 rounded-lg my-4">
+          <img src={entry.icon} alt="Icon" className="w-12 h-12 mb-4"/>
+          <h3 className="text-xl font-bold">{entry.title} at {entry.company}</h3>
+          <p className="text-sm">{`${entry.startDate} - ${entry.endDate}`}</p>
+          <ul className="list-disc mt-2">
+            {entry.description.map((desc, idx) => (
+              <li key={idx} className="text-sm">{desc}</li>
+            ))}
+          </ul>
+          {index === entries.length - 1 ? <div ref={lastItemRef}></div> : null}
         </div>
       ))}
+      <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-blue-500" style={{ height: `${lineHeight}px` }}></div>
     </div>
   );
 };
