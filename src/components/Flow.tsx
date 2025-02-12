@@ -96,8 +96,8 @@ const TimelineComponent: React.FC = () => {
         {entries.map((entry, index) => (
           <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5 relative`}>
             <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} relative`}>
-              {/* Center the image on the line */}
-              <div className="absolute right-1/4 transform -translate-x-1/2">
+              {/* Adjust image position based on the side */}
+              <div className={`absolute ${index % 2 === 0 ? 'right-1/4' : 'left-1/4'} transform -translate-x-1/2`}>
                 <img src={entry.icon} alt="Icon" className="w-[55px] h-[55px]" />
               </div>
               <div className="bg-gray-300 p-4 rounded-lg shadow ml-20">
@@ -115,6 +115,7 @@ const TimelineComponent: React.FC = () => {
         ))}
       </div>
     </div>
+
 
   );
 };
