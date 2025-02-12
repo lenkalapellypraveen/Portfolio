@@ -93,7 +93,7 @@ const TimelineComponent: React.FC = () => {
       <div className="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns">
         {entries.map((entry, index) => (
           <div key={index} className="vertical-timeline-element">
-            <span className="vertical-timeline-element-icon bounce-in" style={{ background: index % 2 === 0 ? 'rgb(56, 62, 86)' : 'rgb(230, 222, 221)' }}>
+            <span className={`vertical-timeline-element-icon bounce-in ${index % 2 === 0 ? 'left-1/4' : 'right-1/4'}`} style={{ background: index % 2 === 0 ? 'rgb(56, 62, 86)' : 'rgb(230, 222, 221)' }}>
               <div className="flex justify-center items-center w-full h-full">
                 <img src={entry.icon} alt="Icon" className="w-[60%] h-[60%] object-contain" />
               </div>
