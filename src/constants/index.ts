@@ -98,8 +98,7 @@ export const achievements = [
 export const experiences = [
     {
       title: "Data Scientist",
-      company_name: "FlareAI",
-      icon: flareai,
+      company_name: "Modak Analytics",
       iconBg: "#383E56",
       date: "June 2023 - Dec 2023",
       points: [
@@ -111,8 +110,7 @@ export const experiences = [
     },
     {
       title: "Data Science Intern",
-      company_name: "FlareAI",
-      icon: flareai,
+      company_name: "Modak Analytics",
       iconBg: "#E6DEDD",
       date: "April 2023 - June 2023",
       points: [
