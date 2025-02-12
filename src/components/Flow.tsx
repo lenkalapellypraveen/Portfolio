@@ -19,7 +19,7 @@ const TimelineComponent: React.FC = () => {
           <div id="" className="vertical-timeline-element">
             <span className="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(56, 62, 86)' }}>
               <div className="flex justify-center items-center w-full h-full">
-                <img src="" alt="FlareAI" className="w-[60%] h-[60%] object-contain" />
+                <img src="" alt="" className="w-[60%] h-[60%] object-contain" />
               </div>
             </span>
             <div className="vertical-timeline-element-content bounce-in" style={{ background: 'rgb(29, 24, 54)', color: 'rgb(255, 255, 255)' }}>
@@ -42,7 +42,7 @@ const TimelineComponent: React.FC = () => {
           <div id="" className="vertical-timeline-element">
             <span className="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(230, 222, 221)' }}>
               <div className="flex justify-center items-center w-full h-full">
-                <img src="" alt="FlareAI" className="w-[60%] h-[60%] object-contain" />
+                <img src="" alt="" className="w-[60%] h-[60%] object-contain" />
               </div>
             </span>
             <div className="vertical-timeline-element-content bounce-in" style={{ background: 'rgb(29, 24, 54)', color: 'rgb(255, 255, 255)' }}>
