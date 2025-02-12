@@ -93,3 +93,32 @@ export const achievements = [
     { title: "Microsoft Certified: Azure Data Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Y1MH6WYgCGW2iRk9vtAFrygmYReHIyr5/view" },
     { title: "Microsoft Certified: Azure Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Txs-K6otbvmycsbAxvv6KjMInN_Az5n6/view" }
 ];
+
+
+export const experiences = [
+    {
+      title: "Data Scientist",
+      company_name: "FlareAI",
+      icon: flareai,
+      iconBg: "#383E56",
+      date: "June 2023 - Dec 2023",
+      points: [
+        "Improved Google search indexability by 70% with an average CTR of 40% by fine-tuning a generative algorithm to paraphrase blogs for Shopify stores.",
+        "Enhanced content readability of blogs using LLMs to achieve Gunning Fog Index scores between 9-12.",
+        "Increased sign up rates by 12% through A/B testing various on boarding processes.",
+        "Architected data pipelines using Apache Airflow and compiled SQL queries to visualize data on Tableau",
+      ],
+    },
+    {
+      title: "Data Science Intern",
+      company_name: "FlareAI",
+      icon: flareai,
+      iconBg: "#E6DEDD",
+      date: "April 2023 - June 2023",
+      points: [
+        "Designed a content-based recommendation system using cosine similarity, processing 10K+ products",
+        "Reduced data retrieval time by 15% through optimizing existing SQL queries",
+        "Implemented role-based access control (RBAC) policies on database tables from 20+ sources",
+      ],
+    },
+  ];

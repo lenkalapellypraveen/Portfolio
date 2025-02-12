@@ -15,7 +15,7 @@ const TimelineComponent: React.FC = () => {
       <h2 className="mb-16 text-6xl font-bold text-center">Experience & Education</h2>
       <div className="mt-20 flex flex-col">
         <div className="vertical-timeline vertical-timeline--animate vertical-timeline--two-columns">
-          {/* First entry */}
+          {/* First Entry */}
           <div id="" className="vertical-timeline-element">
             <span className="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(56, 62, 86)' }}>
               <div className="flex justify-center items-center w-full h-full">
@@ -38,7 +38,7 @@ const TimelineComponent: React.FC = () => {
             </div>
           </div>
 
-          {/* Second entry */}
+          {/* Second Entry */}
           <div id="" className="vertical-timeline-element">
             <span className="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(230, 222, 221)' }}>
               <div className="flex justify-center items-center w-full h-full">
