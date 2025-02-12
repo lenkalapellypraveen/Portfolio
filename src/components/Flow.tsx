@@ -97,7 +97,7 @@ const TimelineComponent: React.FC = () => {
           <div key={index} className={`flex ${index % 2 === 1 ? 'justify-end' : 'justify-start'} my-5 relative`}>
             <div className={`flex items-center space-x-4 ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'} relative`}>
               {/* Adjust image position based on the side */}
-              <div className={`absolute ${index % 2 === 0 ? 'right-1/8' : 'left-1/8'} transform -translate-x-1/2`}>
+              <div className={`absolute ${index % 2 === 0 ? 'left-1/4' : 'right-1/4'} transform -translate-x-1/2`}>
                 <img src={entry.icon} alt="Icon" className="w-[55px] h-[55px]" />
               </div>
               <div className="bg-gray-300 p-4 rounded-lg shadow ml-20">
