@@ -37,9 +37,7 @@ const Tech = () => {
         {languages.map((language, index) => (
           <div
             key={index}
-            className={`sphere ${
-              isLight ? "mud-gradient" : "invert"
-            } flex items-center justify-center rounded-full p-4`}
+            className="sphere mud-gradient flex items-center justify-center rounded-full p-4"
           >
             <img
               title={language.title}
@@ -65,7 +63,7 @@ const Tech = () => {
             key={index}
             className={`sphere ${
               isLight ? "mud-gradient" : "invert"
-            } flex items-center justify-center rounded-full p-4`}
+            } flex items-center justify-center rounded-full p-4 bg-gray-300`}
           >
             <img
               title={framework.title}

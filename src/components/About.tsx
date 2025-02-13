@@ -14,18 +14,18 @@ const SkillCard = ({ title, icon }: SkillCardProps) => {
   return (
     <div
       className={`${
-        isLight ? "blood-blue-gradient" : "rose-sky-gradient"
-      } xs:w-[250px] w-full p-[1px] bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex items-center flex-col`}
+        isLight ? "blood-bg-gray-300" : "rose-sky-gradient"
+      } xs:w-[300px] w-full p-[1px] bg-gray-300 rounded-[25px] py-5 px-12 min-h-[300px] flex items-center flex-col`}
     >
       <img
         src={icon}
         alt={title}
-        className="w-56 h-40 object-contain pointer-events-none"
-        style={{ transform: "translateZ(100px)" }}
+        className="w-56 h-35 object-contain pointer-events-none"
+        style={{ transform: "translateZ(150px)" }}
       />
       <h3
         className={`${
-          isLight ? "text-white" : "text-black"
+          isLight ? "text-black" : "text-black"
         } text-[20px] font-bold text-center`}
         style={{ transform: "translateZ(50px)" }}
       >

@@ -12,12 +12,12 @@ const AchievementCard = ({ title, icon, link }) => {
         rel="noopener noreferrer"
         className="w-full relative"
       >
-        <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:-translate-y-2">
+        <div className="bg-white dark:bg-gray-300 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:-translate-y-2">
           <div className="w-full h-[145px] flex items-center justify-center bg-gray-300">
             <img src={icon} alt={title} className="h-[140px] object-contain" />
           </div>
           <div className="p-2">
-            <h3 className="text-sm font-semibold text-gray-800 dark:text-white text-center">
+            <h3 className="text-sm font-semibold text-gray-300 dark:text-black text-center">
               {title}
             </h3>
           </div>
@@ -46,7 +46,7 @@ const Achievements = () => {
     <div
       id="achievements"
       className={`py-16 ${
-        isLight ? "bg-white" : "bg-gray-900"
+        isLight ? "bg-white" : "bg-gray-300"
       } transition-colors duration-500`}
     >
       <div className="container mx-auto px-2">

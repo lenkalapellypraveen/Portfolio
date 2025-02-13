@@ -137,7 +137,7 @@ export const experiences: { title: string, company_name: string, iconBg: string,
     {
         title: "Data Engineer",
         company_name: "UST Global",
-        iconBg: "#E6DEDD",
+        iconBg: "#fff",
         icon : `${UST}`,
         date: "July 2020 - April 2021",
         points: [
