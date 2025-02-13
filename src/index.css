@@ -92,8 +92,8 @@ img {
 
 .mud-gradient {
   background: "#d7b090";
-  background: linear-gradient(-45.13deg, #d7b090 40%, #383850 100%);
-  background: -webkit-linear-gradient(-45.13deg, #d7b090 40%, #383850 100%);
+  background: linear-gradient(-45.13deg, rgb(226, 232, 240) 40%, #383850 100%);
+  background: -webkit-linear-gradient(-45.13deg, rgb(226, 232, 240) 40%, #383850 100%);
 }
 
 .orange-text-gradient {

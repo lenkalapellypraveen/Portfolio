@@ -3,8 +3,8 @@
 	background:
 		radial-gradient(40px at 30% 30%, rgba(243, 243, 243, .05) 0%, rgba(243, 243, 243, .05) 99%, transparent 100%),
 		radial-gradient(40px at 25% 20%, rgba(243, 243, 243, .5) 0, rgba(255, 255, 255, .2) 8%, transparent 40%, transparent 100%),
-		radial-gradient(100px at 25% 20%, rgba(255, 9, 79, 0.2) 0%, transparent 100%),
-		radial-gradient(100px at 80% 90%, rgba(153, 12, 76, 0.85) 0%, transparent 100%);
+		radial-gradient(100px at 25% 20%, rgb(226, 232, 240) 0%, transparent 100%),
+		radial-gradient(100px at 80% 90%, rgb(226, 232, 240) 0%, transparent 100%);
 	border-radius: 50%;
 	animation: hover 2s ease 0s infinite;
 }
