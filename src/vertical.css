@@ -1,12 +1,13 @@
 /* styles.css */
 .vertical-timeline::before {
-    background-color: #22222e !important;  /* Tailwind's bg color, replace with your desired color */
+    background-color: #525061!important;  /* Tailwind's bg color, replace with your desired color */
   }
   
   .vertical-timeline::after {
-    background-color: #22222e !important;  /* Tailwind's bg color, replace with your desired color */
+    background-color: #525061 !important;  /* Tailwind's bg color, replace with your desired color */
   }
   
   .vertical-timeline-element-content .vertical-timeline-element-date{
-    color:rgb(19, 19, 19) !important;
+    color:#525061 !important;
   }
+  

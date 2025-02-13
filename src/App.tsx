@@ -4,6 +4,7 @@ import { Resume } from './components';
 import MainSite from './MainSite';
 import "./vertical.css";
 
+
 export const context = createContext<{ 
 	isLight: boolean, 
 	setIsLight: (isLight: boolean) => void,
@@ -12,12 +13,13 @@ export const context = createContext<{
 function App() {
 
 	const [isLight, setIsLight] = useState<boolean>(true);
+	
 
 	return (
-		<context.Provider value={{ isLight, setIsLight }}>
+		<context.Provider style value={{ isLight, setIsLight }}>
 			<Router>
 				<Routes>
-					<Route path="/" element={<MainSite />} />
+					<Route  path="/" element={<MainSite  />} />
 				</Routes>
 				<Routes>
 					<Route path="/resume" element={<Resume />} />

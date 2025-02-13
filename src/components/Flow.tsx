@@ -16,11 +16,12 @@ interface ExperienceCardProps {
     points: string[];
   };
 }
+console.log(experiences);
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: "#1d1836", color: "#fff" }}
+      contentStyle={{ background: "#283845", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -29,7 +30,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-[80%] h-[80%] object-contain'
           />
         </div>
       }
@@ -60,7 +61,7 @@ const Experience: React.FC = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <h2 className={styles.sectionHeadText}>Experience & Education</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

@@ -2,6 +2,9 @@ import { ML_Engineer, Data_Scientist, docker, Data_Engineer, Cloud_Engineer, kaf
 import { Ssms, python, sql, git, javascript, mongodb, nodejs, reactjs, tailwind, typescript } from '../assets';
 import { java, azure, gcp, tableau, kubernetes, excel, jenkins, scala, plsql} from '../assets';
 import { github, Weather_Prediction, Microsoft_Fabric, Genomic_Ancestry_Prediction, Polyp, MS_DS_Associate, Neo4j, Databricks, MS_DP} from '../assets/index';
+import {Fau, Modak, UST, Griet}  from '../assets/icons';
+
+console.log(Griet);
 
 // URL for the resume
 export const resumeLink: string = "https://drive.google.com/file/d/1CLpq41i35JeQUcCY4JSjF3UrYw7GmErp/view?usp=sharing";
@@ -88,35 +91,69 @@ export const projects: { title: string, description: string, stack: string[], so
 // Achievements
 export const achievements: { title: string, icon: string, link: string }[] = [
     { title: "Microsoft Certified: Azure Data Scientist Associate", icon: MS_DS_Associate, link: "https://drive.google.com/file/d/1afT5f_o1wR9SNVJKyrGDoxKqC26mg0UV/view?usp=sharing" },
-    { title: "Fundamentals of the Databricks Lakehouse Platform Accreditation", icon: Databricks, link: "https://drive.google.com/file/d/1AXBM1AV8wi3LVV6ivrXXOwtvVBvTRG3v/view" },
-    { title: "Neo4j Certified Professional", icon: Neo4j, link: "https://drive.google.com/file/d/1sNrxTUDEcWGc50gRWufBqfkiMaZ2ekwR/view" },
+    { title: "Fundamentals of Databricks Lakehouse Accreditation", icon: Databricks, link: "https://drive.google.com/file/d/1AXBM1AV8wi3LVV6ivrXXOwtvVBvTRG3v/view" },
+    { title: "Neo4j Certified Professional Developer", icon: Neo4j, link: "https://drive.google.com/file/d/1sNrxTUDEcWGc50gRWufBqfkiMaZ2ekwR/view" },
     { title: "Microsoft Certified: Azure Data Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Y1MH6WYgCGW2iRk9vtAFrygmYReHIyr5/view" },
     { title: "Microsoft Certified: Azure Fundamentals", icon: MS_DP, link: "https://drive.google.com/file/d/1Txs-K6otbvmycsbAxvv6KjMInN_Az5n6/view" }
 ];
 
 // Experiences
-export const experiences: { title: string, company_name: string, iconBg: string, date: string, points: string[] }[] = [
+export const experiences: { title: string, company_name: string, iconBg: string, icon: any, date: string, points: string[] }[] = [
     {
-        title: "Data Scientist",
-        company_name: "Modak Analytics",
+        title: "Master of Science - Data Science and Analytics",
+        company_name: "Florida Atlantic University",
         iconBg: "#383E56",
-        date: "June 2023 - Dec 2023",
+        icon : `${Fau}`,
+        date: "Aug 2023 - Dec 2024",
         points: [
-            "Improved Google search indexability by 70% with an average CTR of 40% by fine-tuning a generative algorithm to paraphrase blogs for Shopify stores.",
-            "Enhanced content readability of blogs using LLMs to achieve Gunning Fog Index scores between 9-12.",
-            "Increased sign up rates by 12% through A/B testing various onboarding processes.",
-            "Architected data pipelines using Apache Airflow and compiled SQL queries to visualize data on Tableau"
+            "Related Courses: Intro to Data Science, Intro to Business Analytics and Big data, Data Mining and Machine Learning, Deep Learning, Database Management Systems, Data  Management and Analysis with Excel, Cloud Computing, Artificial Intelligence, Big Data Analytics with Hadoop, Reinforcement Learning."
         ]
     },
     {
-        title: "Data Science Intern",
+        title: "Data Scientist",
         company_name: "Modak Analytics",
-        iconBg: "#E6DEDD",
-        date: "April 2023 - June 2023",
+        iconBg: "#fff",
+        icon : `${Modak}`,
+        date: "May 2022 - July 2024",
         points: [
-            "Designed a content-based recommendation system using cosine similarity, processing 10K+ products",
-            "Reduced data retrieval time by 15% through optimizing existing SQL queries",
-            "Implemented role-based access control (RBAC) policies on database tables from 20+ sources"
+          "Led large-scale data pipeline development using Python, applying AI and statistical modeling for predictive analytics and GenAI challenges.",
+		  "Built machine learning models using Azure Machine Learning, increasing accuracy by 25%, and used MLOps for deployment and feature engineering in Azure OpenAI.",
+		  "Integrated Azure Databricks with Power BI for real-time data visualization, reducing report generation time by 35% and optimizing data processing.",
+		  "Developed SQL frameworks and Python algorithms with NLP for trend analysis, reducing query response time by 30% and boosting decision efficiency by 15%."
+        ]
+    },  
+    {
+        title: "Data Engineer",
+        company_name: "Modak Analytics",
+        iconBg: "#fff" ,
+        icon : `${Modak}`,
+        date: "April 2021 - May 2022",
+        points: [
+          "Developed bulk ingestion pipelines using StreamSets and custom Spark-Scala/PySpark scripts for ETL into Amazon S3 and Hive, improving data warehousing accuracy by 20%.",
+		  "Configured AWS Lambda with CI/CD tools (CodePipeline, CodeCommit), automating data migration with Python, saving 50+ manual hours monthly.",
+		  "Optimized operations by automating data pipeline scheduling with Python DAG scheduler, enhancing data processing efficiency."
+        ]
+    },
+    {
+        title: "Data Engineer",
+        company_name: "UST Global",
+        iconBg: "#E6DEDD",
+        icon : `${UST}`,
+        date: "July 2020 - April 2021",
+        points: [
+          "Built Azure Data Factory pipelines to aggregate data from external APIs, enhancing accessibility and ensuring regulatory compliance for healthcare data.",
+		  "Developed custom scripts to optimize CRUD operations, reducing execution time by 30% and supporting business operations.",
+		  "Streamlined GitHub repositories and improved CI/CD workflows, boosting pipeline reliability by 35% and ensuring seamless deployments."
+        ]
+    },
+    {
+        title: "Bachelor of Technology - Electronics and Communications Engineering",
+        company_name: "Gokaraju Rangaraju Institute of Engineering and Technology",
+        iconBg: "#383E56",
+        icon : `${Griet}`,
+        date: "July 2017 - April 2021",
+        points: [
+          "Related Courses: Data Structures and Algorithms, C Programming, Object Oriented Programming in JAVA, Computer Networks, Programming, Data Structures and Algorithms in Python, Digital Image Processing, Wireless Communications and Networks, Principles of Cloud Computing."
         ]
     }
 ];
