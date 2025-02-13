@@ -6,6 +6,7 @@ export const theme = {
       "secondary-light": "#2548e3",
       "secondary-text-light": "#494f50",
       "tertiary-light": "#151030",
+      "certification-color": "#c2c5cc",
 
       "secondary-dark": "#aaa6c3",
       "tertiary-dark": "#151030",

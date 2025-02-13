@@ -13,8 +13,8 @@ const AchievementCard = ({ title, icon, link }) => {
         className="w-full relative"
       >
         <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform transform hover:-translate-y-2">
-          <div className="w-full h-24 flex items-center justify-center bg-white">
-            <img src={icon} alt={title} className="h-16 object-contain" />
+          <div className="w-full h-[145px] flex items-center justify-center bg-gray-300">
+            <img src={icon} alt={title} className="h-[140px] object-contain" />
           </div>
           <div className="p-2">
             <h3 className="text-sm font-semibold text-gray-800 dark:text-white text-center">
