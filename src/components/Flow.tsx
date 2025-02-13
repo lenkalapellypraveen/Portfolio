@@ -1,13 +1,26 @@
-import { VerticalTimeline , VerticalTimelineElement } from "react-vertical-timeline-component";
-import "../node_modules/react-vertical-timeline-component/style.min.css";
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import SectionWrapper from "../hoc/SectionWrapper";
+import { textVariant } from '../utils/motion';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
 
-const ExperienceCard = ({experience}) => {
+interface ExperienceCardProps {
+  experience: {
+    date: string;
+    iconBg: string;
+    icon?: string;
+    title: string;
+    company_name: string;
+    points: string[];
+  };
+}
+
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <VerticalTimelineElement
-     contentStyle={{background:"#1d1836",color:"#fff"}}
+      contentStyle={{ background: "#1d1836", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -23,10 +36,7 @@ const ExperienceCard = ({experience}) => {
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
+        <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
           {experience.company_name}
         </p>
       </div>
@@ -42,26 +52,25 @@ const ExperienceCard = ({experience}) => {
         ))}
       </ul>
     </VerticalTimelineElement>
-  )
-}
-const Experience = () => {
+  );
+};
+
+const Experience: React.FC = () => {
   return (
     <>
-      <motion.div
-       variants={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
-
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience = {experience} />
+            <ExperienceCard key={index} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SectionWrapper(Experience, 'work');

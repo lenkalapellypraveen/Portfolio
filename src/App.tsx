@@ -2,6 +2,7 @@ import { useState, createContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Resume } from './components';
 import MainSite from './MainSite';
+import "./vertical.css";
 
 export const context = createContext<{ 
 	isLight: boolean, 

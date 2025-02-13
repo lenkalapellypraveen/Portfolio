@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import "./vertical.css";
 import {
   Navbar,
   Hero,
